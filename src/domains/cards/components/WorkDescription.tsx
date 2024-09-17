@@ -9,7 +9,8 @@ const WorkDescription: React.FC = () => {
       </h1>
 
       <p className={styles.description}>
-        I’m a product designer with over six years of experience transforming the “How do I do this?” moments into “That was easy!”—because life’s complicated enough without confusing interfaces.
+        I’m a product designer with over six years of experience <b>transforming the “How <br/> do I do this?” moments
+        into “That was easy!”</b>—because life’s complicated <br /> enough without confusing interfaces.
       </p>
     </div>
   )

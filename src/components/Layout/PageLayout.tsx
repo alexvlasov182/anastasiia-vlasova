@@ -16,7 +16,7 @@ const items: MenuProps["items"] = [
         to="https://drive.google.com/file/d/1WMarOb_wGE5xL-jhpGTOnhxRaey2gs7n/view?usp=sharing"
         target="_blank"
       >
-        CV
+        Resume
       </Link>
     ),
   },
@@ -29,28 +29,33 @@ interface PageLayoutProps {
 const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
   return (
     <Layout className={styles.layout}>
-      <Header className={styles.header}>
-        <Link
-          className={styles.logo}
-          style={{ textDecoration: "none", color: "#000" }}
-          to="/"
-        >
-          Anastasiia Vlasova
-        </Link>
+        <Header className={styles.header}>
+          <div className={styles.headerInner}>
+            <div className={styles.logo}>
+              <Link
+                style={{ textDecoration: "none", color: "#000" }}
+                to="/"
+              >
+                Anastasiia Vlasova
+              </Link>
+            </div>
 
-        <Menu
-          theme="dark"
-          mode="horizontal"
-          defaultSelectedKeys={["2"]}
-          items={items}
-          className={styles.menu}
-        />
-      </Header>
-      <Content className={styles.content}>{children}</Content>
-      <Footer className={styles.footer}>
-        Designed by Anastasiia Vlasova | Created by Oleksandr Vlasov ©
-        {new Date().getFullYear()}
-      </Footer>
+
+            <Menu
+              theme="dark"
+              mode="horizontal"
+              defaultSelectedKeys={["2"]}
+              items={items}
+              className={styles.menu}
+            />
+          </div>
+
+        </Header>
+        <Content className={styles.content}>{children}</Content>
+        <Footer className={styles.footer}>
+          Designed by Anastasiia Vlasova | Created by Oleksandr Vlasov ©
+          {new Date().getFullYear()}
+        </Footer>
     </Layout>
   );
 };

@@ -10,13 +10,13 @@
     "cover_image": "src/assets/images/ux-ui.png"
   },
   {
-    "title": "Star DB",
+    "title": "Focal Point",
     "description": "System where procurement activities can be tracked and measured",
     "cover_image": "src/assets/images/start-page.jpg"
   },
   {
-    "title": "Todo List",
-    "description": "System where procurement activities can be tracked and measured",
+    "title": "Doably",
+    "description": "Tool for managing personal and business life",
     "cover_image": "src/assets/images/people.jpg"
   }
 ]
