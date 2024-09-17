@@ -1,0 +1,22 @@
+[
+  {
+    "title": "ReconHub",
+    "description": "Tool that enables automatic reconciliation of all payment flows",
+    "cover_image": "src/assets/images/all-posts.jpg"
+  },
+  {
+    "title": "PaytestHub",
+    "description": "Test automation cloud platform",
+    "cover_image": "src/assets/images/ux-ui.png"
+  },
+  {
+    "title": "Star DB",
+    "description": "System where procurement activities can be tracked and measured",
+    "cover_image": "src/assets/images/start-page.jpg"
+  },
+  {
+    "title": "Todo List",
+    "description": "System where procurement activities can be tracked and measured",
+    "cover_image": "src/assets/images/people.jpg"
+  }
+]
