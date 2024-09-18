@@ -10,6 +10,7 @@ const CardList: React.FC = () => (
   <div className={styles.cardListWrapper}>
     {cardsData.map((card, index) => (
       <CardItem
+        id={card.id}
         key={index}
         title={card.title}
         description={card.description}

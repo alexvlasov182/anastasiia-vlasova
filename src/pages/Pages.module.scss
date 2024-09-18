@@ -107,27 +107,15 @@
   margin-top: 24px;
 }
 
-.projectTitle {
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-}
-
-.name,
-.js {
-  color: #1677ff;
-}
-
-
 .footer {
   text-align: center;
-  background: #f0f2f5;
-  padding: 0px 0px 12px 0px;
+  padding: 0 0 12px 0;
   background-color: #fff;
 }
 
 .informationBlock {
   width: 100%;
-  max-width: 1060px;
+  max-width: 1120px;
   margin: 0 auto;
   margin-top: 56px;
   margin-bottom: 56px;
@@ -135,7 +123,7 @@
 }
 
 .contentPadding {
-  padding: 0px 24px 0px 24px;
+  padding: 0 24px 0 24px;
 }
 
 .buttonContainer {
@@ -145,55 +133,8 @@
   margin-bottom: 24px;
 }
 
-/* About Section */
-.aboutSection {
-  margin-top: 32px;
-  display: flex;
-  justify-content: center;
-  padding: 32px 20px;
+.name {
+  color: #2977E3;
 }
 
-.aboutContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1120px;
-  width: 100%;
-  margin: 0 auto;
-}
 
-.textColumn {
-  flex-basis: 666px;
-  max-width: 100%;
-  padding-right: 24px;
-  box-sizing: border-box;
-}
-
-.imageColumn {
-  flex-basis: 391px;
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.profileImage {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.aboutDescription {
-  font-family: "Inter", sans-serif;
-  font-size: 18px;
-  color: #212121;
-  letter-spacing: 0.5px;
-}
-
-.titleAbout {
-  font-family: "Inter", sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 16px;
-}

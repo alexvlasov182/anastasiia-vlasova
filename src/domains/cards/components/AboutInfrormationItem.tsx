@@ -1,6 +1,5 @@
 import React from "react";
 
-// @ts-ignore
 import styles from '../../../pages/Pages.module.scss';
 
 const AboutInformationList: React.FC = () => {

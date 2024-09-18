@@ -1,28 +1,23 @@
+/* Home Page - Card Section Styling */
 .cardListWrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 40px 20px;
 }
 
-.groupButton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
+/* Card Style */
 .card {
-  //flex: 0 1 48%;
-  //max-width: 48%;
-  width: 520px;
-  height: 480px;
-  position: relative;
-  overflow: hidden;
+  height: 400px; /* Set a fixed height */
+  background-color: #F5F5F5;
   border-radius: 24px;
-
-  //height: 400px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
 }
 
 .list {
@@ -38,6 +33,7 @@
   padding: 20px;
   z-index: 2;
   position: relative;
+  flex-grow: 1; /* Let the content fill the card */
 }
 
 .cardTitle {
@@ -56,6 +52,7 @@
   z-index: 1;
   border-radius: 8px;
   pointer-events: none;
+  object-fit: cover;
 }
 
 .cardDescription {
@@ -65,43 +62,12 @@
   text-align: left;
 }
 
-.technologies {
-  display: flex;
-  gap: 10px;
-  margin-top: auto;
-}
-
-/* RESPONSIVENESS */
-
-/* For tablets (768px and below), stack cards vertically */
+/* Responsive adjustments for mobile screens */
 @media (max-width: 768px) {
-  .card {
-    flex: 0 1 100%; /* One card per row */
-    max-width: 100%;
-    height: 350px;
-  }
-
-  .cardImage {
-    width: 120%;
-    bottom: -20px;
-    right: -20px;
-  }
-  .technologies {
-    display: none;
+  .cardListWrapper {
+    grid-template-columns: 1fr; /* Single column on mobile */
+    grid-gap: 20px;
+    padding: 40px 0;
   }
 }
 
-/* For small devices like phones (480px and below) */
-@media (max-width: 480px) {
-  .card {
-    flex: 0 1 100%; /* One card per row */
-    max-width: 100%;
-    height: 300px;
-  }
-
-  .cardImage {
-    width: 100%;
-    bottom: -10px;
-    right: -10px;
-  }
-}
