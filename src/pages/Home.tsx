@@ -1,5 +1,5 @@
 import React from "react";
-import CardList from "../domains/cards/components/CardList.tsx";
+import CardList from "../domains/cards/components/Cards/CardList.tsx";
 
 import styles from './Pages.module.scss'
 
