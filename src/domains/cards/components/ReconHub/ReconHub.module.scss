@@ -133,14 +133,15 @@
   box-sizing: border-box;
 }
 
-.researchTitle, .metricsTitle {
+.researchTitle, .metricsTitle, .personasTitle, .journeyTitle, .screensTitle {
   font-size: 24px;
   font-family: "Inter", sans-serif;
   color: #1a1a1a;
   text-align: center;
 }
 
-.researchParagraph, .metricsParagraph {
+.researchParagraph, .metricsParagraph, .personasParagraph, .journeyParagraph,
+.screensParagraph {
   margin-top: 24px;
   font-family: "Inter", sans-serif;
   font-size: 18px;
@@ -170,7 +171,7 @@
 }
 
 /* Metrics */
-.metricsContainer {
+.metricsContainer, .personasContainer, .journeyContainer, .screensContainer {
   max-width: 908px;
   //height: 586px;
   margin: 100px auto 0 auto;
@@ -179,5 +180,7 @@
   box-sizing: border-box;
 }
 
-
-
+/* USER JOURNEY MAP */
+.imageContainer {
+  margin-top: 24px;
+}
