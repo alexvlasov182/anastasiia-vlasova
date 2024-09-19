@@ -126,21 +126,21 @@
 /* Research Section */
 .researchContainer {
   max-width: 908px;
-  height: 586px;
+  //height: 586px;
   margin: 0 auto;
 
   padding: 0 20px;
   box-sizing: border-box;
 }
 
-.researchTitle {
+.researchTitle, .metricsTitle {
   font-size: 24px;
   font-family: "Inter", sans-serif;
   color: #1a1a1a;
   text-align: center;
 }
 
-.researchParagraph {
+.researchParagraph, .metricsParagraph {
   margin-top: 24px;
   font-family: "Inter", sans-serif;
   font-size: 18px;
@@ -167,6 +167,16 @@
 
 .mainList {
   padding-left: 30px;
+}
+
+/* Metrics */
+.metricsContainer {
+  max-width: 908px;
+  //height: 586px;
+  margin: 100px auto 0 auto;
+
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 

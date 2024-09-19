@@ -39,8 +39,6 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
                 Anastasiia Vlasova
               </Link>
             </div>
-
-
             <Menu
               theme="dark"
               mode="horizontal"
@@ -51,7 +49,9 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
           </div>
 
         </Header>
-        <Content className={styles.content}>{children}</Content>
+        <Content className={styles.content}>
+          {children}
+        </Content>
         <Footer className={styles.footer}>
           Designed by Anastasiia Vlasova | Created by Oleksandr Vlasov ©
           {new Date().getFullYear()}
