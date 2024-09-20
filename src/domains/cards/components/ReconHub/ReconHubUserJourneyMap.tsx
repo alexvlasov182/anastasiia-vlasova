@@ -14,7 +14,7 @@ const ReconHubUserJourneyMap: React.FC = () => {
         </p>
       </div>
       <div className={styles.imageContainer}>
-        <img src="src/assets/images/user-journey-map-img.png" alt="User Journey Map" />
+        <img className={styles.imageSize} src="src/assets/images/user-journey-map-img.png" alt="User Journey Map" />
       </div>
     </section>
   )

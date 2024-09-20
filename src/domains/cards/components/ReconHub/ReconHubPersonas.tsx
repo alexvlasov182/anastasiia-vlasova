@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './ReconHub.module.scss'
-import MySlider from "../Slider/MySlider.tsx";
+import ReconHubSlider from "../Slider/ReconHubSlider.tsx";
 
 const ReconHubPersonas: React.FC = () => {
   return (
@@ -12,7 +12,7 @@ const ReconHubPersonas: React.FC = () => {
         </p>
       </div>
       <div className={styles.sliderContainer}>
-        <MySlider/>
+        <ReconHubSlider/>
       </div>
     </section>
   )

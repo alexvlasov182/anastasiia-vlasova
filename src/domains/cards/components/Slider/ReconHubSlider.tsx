@@ -1,6 +1,6 @@
 import React from "react";
 import {Swiper, SwiperSlide} from "swiper/react";
-
+import styles from '../../components/ReconHub/ReconHub.module.scss';
 
 // Import Swiper styles
 import 'swiper/css';               // Core Swiper styles
@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 // Import required modules (like pagination, navigation, etc.)
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
-const MySlider: React.FC  = () => {
+const ReconHubSlider: React.FC  = () => {
   return (
     <Swiper
       // Required modules
@@ -25,26 +25,26 @@ const MySlider: React.FC  = () => {
     >
       <SwiperSlide>
         <div style={{  padding: "40px" }}>
-          <img src="src/assets/images/reconhub-slide-1.png" alt="ReconHub Preview Personas" />
+          <img className={styles.imageSize} src="src/assets/images/reconhub-slide-1.png" alt="ReconHub Preview Personas" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div style={{  padding: "40px" }}>
-          <img src="src/assets/images/reconhub-slide-2.png" alt="ReconHub Preview Personas"/>
+          <img className={styles.imageSize} src="src/assets/images/reconhub-slide-2.png" alt="ReconHub Preview Personas"/>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div style={{  padding: "40px" }}>
-          <img src="src/assets/images/reconhub-slide-3.png" alt="ReconHub Preview Personas"/>
+          <img className={styles.imageSize} src="src/assets/images/reconhub-slide-3.png" alt="ReconHub Preview Personas"/>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div style={{ padding: "40px" }}>
-          <img src="src/assets/images/reconhub-slide-4.png" alt="ReconHub Preview Personas"/>
+          <img className={styles.imageSize} src="src/assets/images/reconhub-slide-4.png" alt="ReconHub Preview Personas"/>
         </div>
       </SwiperSlide>
     </Swiper>
   );
 }
 
-export default MySlider;
+export default ReconHubSlider;

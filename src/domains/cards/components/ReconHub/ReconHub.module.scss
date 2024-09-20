@@ -133,7 +133,7 @@
   box-sizing: border-box;
 }
 
-.researchTitle, .metricsTitle, .personasTitle, .journeyTitle, .screensTitle {
+.researchTitle, .metricsTitle, .personasTitle, .journeyTitle, .screensTitle, .usabilityTitle, .resultTitle {
   font-size: 24px;
   font-family: "Inter", sans-serif;
   color: #1a1a1a;
@@ -141,7 +141,7 @@
 }
 
 .researchParagraph, .metricsParagraph, .personasParagraph, .journeyParagraph,
-.screensParagraph {
+.screensParagraph, .usabilityParagraph {
   margin-top: 24px;
   font-family: "Inter", sans-serif;
   font-size: 18px;
@@ -171,7 +171,7 @@
 }
 
 /* Metrics */
-.metricsContainer, .personasContainer, .journeyContainer, .screensContainer {
+.metricsContainer, .personasContainer, .journeyContainer, .screensContainer, .usabilityContainer {
   max-width: 908px;
   //height: 586px;
   margin: 100px auto 0 auto;
@@ -183,4 +183,47 @@
 /* USER JOURNEY MAP */
 .imageContainer {
   margin-top: 24px;
+}
+
+.imageSize {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* Result */
+.resultSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 908px; /* Your desired width for the whole section */
+  margin: 100px auto 0 auto;
+  padding: 0 20px;
+}
+
+.numberedItem {
+  display: flex;
+  align-items: center;
+}
+
+.numberCircle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #2977E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.resultText {
+  margin-top: 24px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #212121;
 }

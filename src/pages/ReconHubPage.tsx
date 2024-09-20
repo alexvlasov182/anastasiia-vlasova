@@ -9,6 +9,8 @@ import ReconHubMetrics from "../domains/cards/components/ReconHub/ReconHubMetric
 import ReconHubPersonas from "../domains/cards/components/ReconHub/ReconHubPersonas.tsx";
 import ReconHubUserJourneyMap from "../domains/cards/components/ReconHub/ReconHubUserJourneyMap.tsx";
 import ReconHubScreens from "../domains/cards/components/ReconHub/ReconHubScreens.tsx";
+import ReconHubUsabilityStudy from "../domains/cards/components/ReconHub/ReconHubUsabilityStudy.tsx";
+import ReconHubResult from "../domains/cards/components/ReconHub/ReconHubResult.tsx";
 
 const ReconHubPage: React.FC = () => {
   return (
@@ -21,7 +23,9 @@ const ReconHubPage: React.FC = () => {
         <ReconHubPersonas />
         <ReconHubUserJourneyMap />
         <ReconHubScreens />
-        {/*<MySlider />*/}
+        <ReconHubUsabilityStudy />
+        <ReconHubResult />
+        {/*<ReconHubSlider />*/}
       </div>
     </PageLayout>
   );
