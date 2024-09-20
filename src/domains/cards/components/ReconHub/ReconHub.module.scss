@@ -133,7 +133,7 @@
   box-sizing: border-box;
 }
 
-.researchTitle, .metricsTitle, .personasTitle, .journeyTitle, .screensTitle, .usabilityTitle, .resultTitle {
+.researchTitle, .metricsTitle, .personasTitle, .journeyTitle, .screensTitle, .usabilityTitle, .resultTitle, .takeAwaysTitle {
   font-size: 24px;
   font-family: "Inter", sans-serif;
   color: #1a1a1a;
@@ -141,7 +141,7 @@
 }
 
 .researchParagraph, .metricsParagraph, .personasParagraph, .journeyParagraph,
-.screensParagraph, .usabilityParagraph {
+.screensParagraph, .usabilityParagraph, .takeAwaysParagraph {
   margin-top: 24px;
   font-family: "Inter", sans-serif;
   font-size: 18px;
@@ -171,7 +171,7 @@
 }
 
 /* Metrics */
-.metricsContainer, .personasContainer, .journeyContainer, .screensContainer, .usabilityContainer {
+.metricsContainer, .personasContainer, .journeyContainer, .screensContainer, .usabilityContainer, .takeAwaysContainer {
   max-width: 908px;
   //height: 586px;
   margin: 100px auto 0 auto;
@@ -226,4 +226,14 @@
   font-family: "Inter", sans-serif;
   font-size: 18px;
   color: #212121;
+}
+
+
+.takeAawaysMainColor {
+  color: #2977E3;
+  font-weight: bold;
+}
+
+.takeAwaysSection {
+  margin-bottom: 80px;
 }

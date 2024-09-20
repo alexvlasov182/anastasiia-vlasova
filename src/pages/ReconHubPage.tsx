@@ -11,6 +11,7 @@ import ReconHubUserJourneyMap from "../domains/cards/components/ReconHub/ReconHu
 import ReconHubScreens from "../domains/cards/components/ReconHub/ReconHubScreens.tsx";
 import ReconHubUsabilityStudy from "../domains/cards/components/ReconHub/ReconHubUsabilityStudy.tsx";
 import ReconHubResult from "../domains/cards/components/ReconHub/ReconHubResult.tsx";
+import ReconHubTakeAways from "../domains/cards/components/ReconHub/ReconHubTakeAways.tsx";
 
 const ReconHubPage: React.FC = () => {
   return (
@@ -25,6 +26,7 @@ const ReconHubPage: React.FC = () => {
         <ReconHubScreens />
         <ReconHubUsabilityStudy />
         <ReconHubResult />
+        <ReconHubTakeAways />
         {/*<ReconHubSlider />*/}
       </div>
     </PageLayout>
