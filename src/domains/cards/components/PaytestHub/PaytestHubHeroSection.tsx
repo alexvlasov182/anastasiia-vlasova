@@ -3,7 +3,7 @@ import styles from './PaytestHub.module.scss'
 
 const PaytestHubHeroSection: React.FC = () => {
   return (
-    <section className={styles.reconHubSection}>
+    <section className={styles.paytestHubSection}>
       <div className={styles.contentWrapper}>
         <h1 className={styles.title}>PaytestHub</h1>
         <h2 className={styles.subtitle}>Payment software testing tool</h2>

@@ -9,7 +9,7 @@ const PaytestHubPersonas: React.FC = () => {
         <h2 className={styles.personasTitle}>PERSONAS</h2>
         <p className={styles.personasParagraph}>
           Based on stakeholder interviews we created 3 types of our current and potential users: <b>Tester</b>, <b>Manager</b>, and
-          <b>Test engineer</b>.
+           <b> Test engineer</b>.
         </p>
 
         <p className={styles.personasParagraph}>

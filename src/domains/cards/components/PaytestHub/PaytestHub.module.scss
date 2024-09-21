@@ -1,4 +1,4 @@
-.reconHubSection {
+.paytestHubSection {
   background-color: #EDF5FF;
   width: 100%;
   height: 672px;
@@ -131,6 +131,15 @@
 
   padding: 0 20px;
   box-sizing: border-box;
+}
+
+.researchSection {
+  margin-bottom: 100px;
+}
+
+.mainColorText {
+  color: #2977E3;
+  font-weight: bold;
 }
 
 .researchTitle, .metricsTitle, .personasTitle, .journeyTitle, .screensTitle, .usabilityTitle, .resultTitle, .takeAwaysTitle {

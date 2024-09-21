@@ -29,7 +29,7 @@ const PaytestHubIntroduction: React.FC = () => {
           </p>
           <h2 className={styles.introductionTitle}>LINK</h2>
           <a className={styles.link} href="https://paytestlab.com/products/paytesthub/" target="_blank" rel="noopener noreferrer">
-            https://<br />reconhub.abrantix.com/en/<br />product/reconhub
+            https://<br />paytestlab.com/<br />products/paytesthub
           </a>
         </div>
       </div>

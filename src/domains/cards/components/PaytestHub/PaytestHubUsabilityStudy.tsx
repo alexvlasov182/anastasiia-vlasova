@@ -7,7 +7,7 @@ const PaytestHubUsabilityStudy: React.FC = () => {
       <div className={styles.usabilityContainer}>
         <h2 className={styles.usabilityTitle}>USABILITY STUDY</h2>
         <p className={styles.usabilityParagraph}>
-          After finishing the first design interaction, we conducted 8 usability studies. Most of our decisions were right and easy to understand. But there were a few interesting BUTs.
+          After finishing the first design interaction, we conducted <b>8 usability studies</b>. Most of our decisions were right and easy to understand. But there were a few interesting BUTs.
         </p>
         <ul className={styles.mainList}>
           <li className={styles.listItem}>Almost all users <b>forgot to save their changes</b>. It was a big milestone in development, so we decided to prove if the autosave feature is worth creating it. To do so, we created Figma prototype to test it and save time for the development.</li>

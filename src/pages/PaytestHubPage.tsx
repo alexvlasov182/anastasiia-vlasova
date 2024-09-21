@@ -14,7 +14,7 @@ import PaytestHubResult from "../domains/cards/components/PaytestHub/PaytestHubR
 import PaytestHubResults from "../domains/cards/components/PaytestHub/PaytestHubResults.tsx";
 import PaytestHubTakeAways from "../domains/cards/components/PaytestHub/PaytestHubTakeAways.tsx";
 import ScrollToTop from "../domains/cards/components/ScrollToTop/ScrollToTop.tsx";
-// import PaytestHubResearchInsights from "../domains/cards/components/PaytestHub/PaytestHubResearchInsights.tsx";
+import PaytestHubResearchInsights from "../domains/cards/components/PaytestHub/PaytestHubResearchInsights.tsx";
 
 
 const PaytestHubPage: React.FC = () => {
@@ -24,7 +24,7 @@ const PaytestHubPage: React.FC = () => {
       <div className={styles.container}>
         <PaytestHubIntroduction />
         <PaytestHubResearch />
-        {/*<PaytestHubResearchInsights />*/}
+        <PaytestHubResearchInsights />
         <PaytestHubBusinessImpact />
         <PaytestHubPersonas />
         <PaytestHubUserJourneyMap />

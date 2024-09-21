@@ -15,42 +15,51 @@ const PaytestHubUserJourneyMap: React.FC = () => {
           onboarding process. In this case study I will focus only on the software issues and will skip the hardware
           installation. The main findings are:
         </p>
+
+        <li className={styles.listItem}>
+          New test case - not clear what to enter
+        </li>
         <ul className={styles.mainList}>
-          <ul>
-            New test case - not clear what to enter
-            <li className={styles.listItem}>
-              add one default test case to show the most common steps;
-            </li>
-            <li className={styles.listItem}>
-              add onboarding hints to guide user at the beginning.
-            </li>
-          </ul>
 
-          <ul>
-            Need to find and copy code from the library
-            <li className={styles.listItem}>
-              add templates;
-            </li>
-            <li className={styles.listItem}>
-              autocomplete while adding a test step.
-            </li>
-          </ul>
-
-          <ul>
-            Analytics doesn’t help to improve efficiency
-            <li className={styles.listItem}>
-              add customized reports;
-            </li>
-            <li className={styles.listItem}>
-              view all failed cases at a glance;
-            </li>
-          </ul>
-
-          <li>
-            Ability to share with a team.
+          <li className={styles.listItem}>
+            add one default test case to show the most common steps;
           </li>
-
+          <li className={styles.listItem}>
+            add onboarding hints to guide user at the beginning.
+          </li>
         </ul>
+
+
+        <li className={styles.listItem}>
+          Need to find and copy code from the library
+        </li>
+        <ul className={styles.mainList}>
+          <li className={styles.listItem}>
+            add templates;
+          </li>
+          <li className={styles.listItem}>
+            autocomplete while adding a test step.
+          </li>
+        </ul>
+
+        <li className={styles.listItem}>
+          Analytics doesn’t help to improve efficiency
+        </li>
+
+        <ul className={styles.mainList}>
+          <li className={styles.listItem}>
+            add customized reports;
+          </li>
+          <li className={styles.listItem}>
+            view all failed cases at a glance;
+          </li>
+        </ul>
+
+        <li className={styles.listItem}>
+          Ability to share with a team.
+        </li>
+
+
       </div>
 
     </section>
