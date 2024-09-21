@@ -1,23 +1,60 @@
 import React from "react";
-import styles from './ReconHub.module.scss'
+import styles from './PaytestHub.module.scss'
 
-const ReconHubUserJourneyMap: React.FC = () => {
+const PaytestHubUserJourneyMap: React.FC = () => {
   return (
     <section className={styles.journeySection}>
       <div className={styles.journeyContainer}>
         <h2 className={styles.journeyTitle}>USER JOURNEY MAP</h2>
         <p className={styles.journeyParagraph}>
-          One of the key areas we focused on was <b>improving the support process</b>. Through interviews with our sales team and current clients, we found that the journey from sales to project installation was too complex and time-consuming. By mapping out the entire user journey, we identified where the biggest pain points were and how we could streamline the process to make it faster and more efficient.
+          The biggest issue was the onboarding process. It took too much time from both sides. From customers’ side it
+          was frustration from the beginning and from the business point of view - the onboarding costs were too high.
         </p>
         <p className={styles.journeyParagraph}>
-          Following these insights, we added a small subproject to enhance the user experience from signing the contract to using ReconHub. We <b> implemented automated surveys </b> to collect information more easily and <b>created a Learn Center</b> where users could quickly find answers to their questions.
+          We conducted more interviews with new customers, stakeholders, and support team to focus more on the
+          onboarding process. In this case study I will focus only on the software issues and will skip the hardware
+          installation. The main findings are:
         </p>
+        <ul className={styles.mainList}>
+          <ul>
+            New test case - not clear what to enter
+            <li className={styles.listItem}>
+              add one default test case to show the most common steps;
+            </li>
+            <li className={styles.listItem}>
+              add onboarding hints to guide user at the beginning.
+            </li>
+          </ul>
+
+          <ul>
+            Need to find and copy code from the library
+            <li className={styles.listItem}>
+              add templates;
+            </li>
+            <li className={styles.listItem}>
+              autocomplete while adding a test step.
+            </li>
+          </ul>
+
+          <ul>
+            Analytics doesn’t help to improve efficiency
+            <li className={styles.listItem}>
+              add customized reports;
+            </li>
+            <li className={styles.listItem}>
+              view all failed cases at a glance;
+            </li>
+          </ul>
+
+          <li>
+            Ability to share with a team.
+          </li>
+
+        </ul>
       </div>
-      <div className={styles.imageContainer}>
-        <img className={styles.imageSize} src="src/assets/images/user-journey-map-img.png" alt="User Journey Map" />
-      </div>
+
     </section>
   )
 }
 
-export default ReconHubUserJourneyMap;
+export default PaytestHubUserJourneyMap;

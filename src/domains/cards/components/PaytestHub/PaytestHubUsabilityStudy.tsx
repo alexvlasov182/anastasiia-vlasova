@@ -1,22 +1,21 @@
 import React from "react";
-import styles from './ReconHub.module.scss'
+import styles from './PaytestHub.module.scss'
 
-const ReconHubUsabilityStudy: React.FC = () => {
+const PaytestHubUsabilityStudy: React.FC = () => {
   return (
     <section className={styles.usabilitySection}>
       <div className={styles.usabilityContainer}>
         <h2 className={styles.usabilityTitle}>USABILITY STUDY</h2>
         <p className={styles.usabilityParagraph}>
-          During usability studies, we used DataDog to track user interactions and gather insights.
+          After finishing the first design interaction, we conducted 8 usability studies. Most of our decisions were right and easy to understand. But there were a few interesting BUTs.
         </p>
         <ul className={styles.mainList}>
-          <li className={styles.listItem}><b>Multiple Tabs for Matching Transactions:</b> Users had to open 3-4 tabs and jump between them to ensure correct reconciliation.</li>
-          <li className={styles.listItem}><b>Total Amount Clicks:</b> Frequent clicks on the Total amount, highlighting its importance.</li>
-          <li className={styles.listItem}><b>Organizational Hierarchy Interaction:</b> Clicked 3 out of 5 times, emphasizing its significance in navigation.</li>
+          <li className={styles.listItem}>Almost all users <b>forgot to save their changes</b>. It was a big milestone in development, so we decided to prove if the autosave feature is worth creating it. To do so, we created Figma prototype to test it and save time for the development.</li>
+          <li className={styles.listItem}>We wanted to save space by adding tabs to the main block. But the users had to jump between tabs and <b>wanted to see Tree and Script at the same time.</b></li>
         </ul>
       </div>
     </section>
   )
 }
 
-export default ReconHubUsabilityStudy;
+export default PaytestHubUsabilityStudy;

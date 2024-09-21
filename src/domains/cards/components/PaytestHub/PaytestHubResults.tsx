@@ -2,30 +2,26 @@ import React from 'react';
 
 import styles from './PaytestHub.module.scss';
 
-const PaytestHubResult: React.FC = () => {
+const PaytestHubResults: React.FC = () => {
   return (
     <section className={styles.resultSection}>
       <div className={styles.numberdSection}>
-        <h2 className={styles.resultTitle}>RESULT</h2>
+        <h2 className={styles.resultTitle}>RESULTS</h2>
+        <p className={styles.resultText}>
+          For this project, we used the following metrics to gauge the success of the redesign, with most measurements tracked using Datadog:
+        </p>
+
         <div className={styles.numberedItem}>
           <div className={styles.numberCircle}>1</div>
-          <p className={styles.resultText}><b>Smooth UI Transition:</b> Changes to a few elements were well-received, with users
-            adapting quickly. <b>Adoption
-            rate: 90%.</b></p>
+          <p className={styles.resultText}><b>Efficiency Improvement:</b> Time to complete key tasks, initially averaging 4:30 minutes, decreased by 30%.</p>
         </div>
         <div className={styles.numberedItem}>
           <div className={styles.numberCircle}>2</div>
-          <p className={styles.resultText}><b>Enhanced Visibility:</b> Adding Total Amount and Organizational Hierarchy by default led to <b>a 30% increase in user engagement.</b></p>
+          <p className={styles.resultText}><b>User Satisfaction:</b> Satisfaction scores from post-launch surveys increased by 25%.</p>
         </div>
         <div className={styles.numberedItem}>
           <div className={styles.numberCircle}>3</div>
-          <p className={styles.resultText}><b>Streamlined Transaction Matching:</b> Collaboration with the support team improved the transaction matching
-            flow, <b>reducing matching time by 30%</b> and boosting overall <b>user efficiency by 20%.</b></p>
-        </div>
-        <div className={styles.numberedItem}>
-          <div className={styles.numberCircle}>4</div>
-          <p className={styles.resultText}><b>Support Hours Slashed:</b> Improvements in the user journey cut support hours from 70 to 30 per month, <b>a 57%
-            reduction.</b></p>
+          <p className={styles.resultText}><b>Error Rate:</b> Errors in test automation reduced by 30%.</p>
         </div>
       </div>
     </section>
@@ -33,4 +29,4 @@ const PaytestHubResult: React.FC = () => {
   )
 }
 
-export default PaytestHubResult;
+export default PaytestHubResults;

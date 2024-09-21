@@ -168,7 +168,6 @@ li {
 
   &:hover {
     color: #4F5ABF !important;
-    font-width: bold !important;
   }
 }
 
@@ -182,3 +181,17 @@ li {
 .contentPadding {
   padding: 0 24px 0 24px;
 }
+
+:where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark .ant-menu-item-selected, :where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark>.ant-menu .ant-menu-item-selected {
+  background-color: transparent !important;
+}
+
+/* Scroll to top */
+.scroll-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 2;
+  cursor: pointer;
+}
+

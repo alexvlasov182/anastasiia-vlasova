@@ -12,6 +12,7 @@ import ReconHubScreens from "../domains/cards/components/ReconHub/ReconHubScreen
 import ReconHubUsabilityStudy from "../domains/cards/components/ReconHub/ReconHubUsabilityStudy.tsx";
 import ReconHubResult from "../domains/cards/components/ReconHub/ReconHubResult.tsx";
 import ReconHubTakeAways from "../domains/cards/components/ReconHub/ReconHubTakeAways.tsx";
+import ScrollToTop from "../domains/cards/components/ScrollToTop/ScrollToTop.tsx";
 
 const ReconHubPage: React.FC = () => {
   return (
@@ -29,6 +30,7 @@ const ReconHubPage: React.FC = () => {
         <ReconHubTakeAways />
         {/*<ReconHubSlider />*/}
       </div>
+      <ScrollToTop />
     </PageLayout>
   );
 };

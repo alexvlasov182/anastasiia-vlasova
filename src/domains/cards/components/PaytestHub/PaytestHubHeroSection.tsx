@@ -1,22 +1,18 @@
 import React from "react";
-import styles from './ReconHub.module.scss'
+import styles from './PaytestHub.module.scss'
 
-const ReconHubHeroSection: React.FC = () => {
+const PaytestHubHeroSection: React.FC = () => {
   return (
     <section className={styles.reconHubSection}>
       <div className={styles.contentWrapper}>
-        <h1 className={styles.title}>ReconHub</h1>
-        <h2 className={styles.subtitle}>Reconciliation Automation Tool</h2>
+        <h1 className={styles.title}>PaytestHub</h1>
+        <h2 className={styles.subtitle}>Payment software testing tool</h2>
         <div className={styles.imageWrapper}>
-          <img
-            src="src/assets/images/reconhab-hero.png"
-            alt="ReconHub Preview"
-            className={styles.projectImage}
-          />
+
         </div>
       </div>
     </section>
   )
 }
 
-export default ReconHubHeroSection;
+export default PaytestHubHeroSection;

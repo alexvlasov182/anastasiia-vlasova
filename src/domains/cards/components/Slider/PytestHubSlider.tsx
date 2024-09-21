@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 // Import required modules (like pagination, navigation, etc.)
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
-const ReconHubSlider: React.FC  = () => {
+const PytestHubSlider: React.FC  = () => {
   return (
     <Swiper
       // Required modules
@@ -25,26 +25,21 @@ const ReconHubSlider: React.FC  = () => {
     >
       <SwiperSlide>
         <div style={{  padding: "40px" }}>
-          <img className={styles.imageSize} src="src/assets/images/reconhub-slide-1.png" alt="ReconHub Preview Personas" />
+          <img className={styles.imageSize} src="src/assets/images/paytesthub-slide-1.png" alt="ReconHub Preview Personas" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div style={{  padding: "40px" }}>
-          <img className={styles.imageSize} src="src/assets/images/reconhub-slide-2.png" alt="ReconHub Preview Personas"/>
+          <img className={styles.imageSize} src="src/assets/images/paytesthub-slide-2.png" alt="ReconHub Preview Personas"/>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div style={{  padding: "40px" }}>
-          <img className={styles.imageSize} src="src/assets/images/reconhub-slide-3.png" alt="ReconHub Preview Personas"/>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div style={{ padding: "40px" }}>
-          <img className={styles.imageSize} src="src/assets/images/reconhub-slide-4.png" alt="ReconHub Preview Personas"/>
+          <img className={styles.imageSize} src="src/assets/images/paytesthub-slide-3.png" alt="ReconHub Preview Personas"/>
         </div>
       </SwiperSlide>
     </Swiper>
   );
 }
 
-export default ReconHubSlider;
+export default PytestHubSlider;

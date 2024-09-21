@@ -1,7 +1,7 @@
 import React from "react";
-import styles from './ReconHub.module.scss'
+import styles from './PaytestHub.module.scss'
 
-const ReconHubMetrics: React.FC = () => {
+const PaytestHubMetrics: React.FC = () => {
   return (
     <section className={styles.metricsSection}>
       <div className={styles.metricsContainer}>
@@ -21,4 +21,4 @@ const ReconHubMetrics: React.FC = () => {
   )
 }
 
-export default ReconHubMetrics;
+export default PaytestHubMetrics;
