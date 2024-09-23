@@ -1,10 +1,10 @@
 import React from "react";
-import CardList from "../domains/cards/components/Cards/CardList.tsx";
+import CardList from "../domains/components/Cards/CardList.tsx";
 
 import styles from './Pages.module.scss'
 
 import PageLayout from "../components/Layout/PageLayout";
-import WorkDescription from "../domains/cards/components/Home/WorkDescription.tsx";
+import WorkDescription from "../domains/components/Home/WorkDescription.tsx";
 
 const Home: React.FC = () => {
   return (

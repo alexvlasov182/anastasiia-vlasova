@@ -1,8 +1,8 @@
 import React from "react";
 
 import PageLayout from "../components/Layout/PageLayout";
-import AboutValues from "../domains/cards/components/About/AboutValues.tsx";
-import AboutSection from "../domains/cards/components/About/AboutSection.tsx";
+import AboutValues from "../domains/components/About/AboutValues.tsx";
+import AboutSection from "../domains/components/About/AboutSection.tsx";
 
 const About: React.FC = () => {
   return (

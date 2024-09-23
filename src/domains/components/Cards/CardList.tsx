@@ -1,6 +1,6 @@
 import React from "react";
 import CardItem from "./CardItem.tsx";
-import cardsData from "../../../../data/cardsData.json";
+import cardsData from "../../../data/cardsData.json";
 
 import styles from "./Cards.module.scss";
 
