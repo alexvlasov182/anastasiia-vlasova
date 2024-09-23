@@ -1,7 +1,7 @@
 import React from "react";
-import styles from './PaytestHub.module.scss'
+import styles from './FocalPoint.module.scss'
 
-const PaytestHubScreens: React.FC = () => {
+const FocalPointScreens: React.FC = () => {
   return (
     <section className={styles.screensSection}>
       <div className={styles.screensContainer}>
@@ -21,10 +21,10 @@ const PaytestHubScreens: React.FC = () => {
         </p>
       </div>
       <div className={styles.imageContainer}>
-        <img className={styles.imageSize} src="src/assets/images/paytest-hub/paytesthub-screens.png" alt="Screens img"/>
+        <img className={styles.imageSize} src="../../../assets/images/paytest-hub/paytesthub-screens.png" alt="Screens img"/>
       </div>
     </section>
   )
 }
 
-export default PaytestHubScreens;
+export default FocalPointScreens;

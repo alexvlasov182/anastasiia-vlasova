@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 // Import required modules (like pagination, navigation, etc.)
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
-const PytestHubSlider: React.FC  = () => {
+const FocalPointSliderPrioritization: React.FC  = () => {
   return (
     <Swiper
       // Required modules
@@ -25,21 +25,16 @@ const PytestHubSlider: React.FC  = () => {
     >
       <SwiperSlide>
         <div style={{  padding: "40px" }}>
-          <img className={styles.imageSize} src="src/assets/images/paytest-hub/paytesthub-slide-1.png" alt="ReconHub Preview Personas" />
+          <img className={styles.imageSize} src="src/assets/images/focal-point/prioritization-img-1.png" alt="Focal Point Preview Personas" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div style={{  padding: "40px" }}>
-          <img className={styles.imageSize} src="src/assets/images/paytest-hub/paytesthub-slide-2.png" alt="ReconHub Preview Personas"/>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div style={{  padding: "40px" }}>
-          <img className={styles.imageSize} src="src/assets/images/paytest-hub/paytesthub-slide-3.png" alt="ReconHub Preview Personas"/>
+          <img className={styles.imageSize} src="src/assets/images/focal-point/prioritization-img-2.jpg" alt="Focal Point Preview Personas"/>
         </div>
       </SwiperSlide>
     </Swiper>
   );
 }
 
-export default PytestHubSlider;
+export default FocalPointSliderPrioritization;

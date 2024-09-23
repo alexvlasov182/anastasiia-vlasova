@@ -1,0 +1,240 @@
+@import "src/styles/partials/_variables.scss";
+
+.paytestHubSection {
+  background-color: $primary-background-color;
+  width: 100%;
+  height: 672px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 $spacing-medium;
+}
+
+.contentWrapper {
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  margin-top: $spacing-large;
+  font-size: 40px;
+  font-family: $font-primary;
+  color: $primary-text-color;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-family: $font-primary;
+  font-size: 20px;
+  font-weight: normal;
+  color: $primary-text-color;
+  margin-bottom: $spacing-large;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.projectImage {
+  max-width: 860px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 16px;
+  margin-bottom: 50px;
+}
+
+/* Introduction Section */
+.paytestHubIntroductionSection {
+  width: 100%;
+  padding: 60px 0 0 0;
+}
+
+.paytestHubIntroductionContainer {
+  max-width: 908px;
+  height: 586px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 $spacing-medium;
+  box-sizing: border-box;
+
+  // Media queries for responsiveness
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    height: auto;
+    margin: 0 auto 100px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0 10px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0 5px;
+  }
+}
+
+.leftColumn {
+  max-width: 607px;
+  box-sizing: border-box;
+  // Media queries for responsiveness
+  @media (max-width: 1200px) {
+    max-width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    padding: 8px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 5px;
+  }
+}
+
+.rightColumn {
+  max-width: 252px;
+  padding: $spacing-medium;
+  box-sizing: border-box;
+
+  // Media queries for responsiveness
+  @media (max-width: 1200px) {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 8px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 5px;
+  }
+}
+
+.introductionTitle {
+  font-size: 1.5rem;
+  font-family: $font-primary;
+  color: $primary-text-color;
+}
+
+.aboutIntroduction {
+  font-family: $font-primary;
+  font-size: $paragraph-font-size;
+  color: $primary-text-color;
+}
+
+/* Research Section */
+.researchContainer {
+  max-width: 908px;
+  margin: 0 auto;
+  padding: 0 $spacing-medium;
+  box-sizing: border-box;
+}
+
+.researchSection {
+  margin-bottom: 100px;
+}
+
+.mainColorText {
+  color: $primary-blue-color;
+  font-weight: bold;
+}
+
+.researchTitle, .metricsTitle, .personasTitle, .journeyTitle, .screensTitle, .usabilityTitle, .resultTitle, .takeAwaysTitle {
+  font-size: $heading-font-size;
+  font-family: $font-primary;
+  color: $primary-text-color;
+  text-align: center;
+}
+
+.researchParagraph, .metricsParagraph, .personasParagraph, .journeyParagraph,
+.screensParagraph, .usabilityParagraph, .takeAwaysParagraph {
+  margin-top: 1.5rem;
+  font-family: $font-primary;
+  font-size: $paragraph-font-size;
+  color: $primary-text-color;
+}
+
+.listResearch {
+  font-family: $font-primary;
+  font-size: $paragraph-font-size;
+  color: $primary-text-color;
+  margin: 0;
+}
+
+.listItem {
+  font-family: $font-primary;
+  font-size: $paragraph-font-size;
+  color: $primary-text-color;
+  list-style: disc;
+
+  &:hover {
+    color: $primary-text-color !important;
+  }
+}
+
+.mainList {
+  padding-left: 30px;
+}
+
+.personasContainer, .journeyContainer, .screensContainer, .usabilityContainer, .takeAwaysContainer {
+  max-width: 908px;
+  margin: 100px auto 0;
+  padding: 0 $spacing-medium;
+  box-sizing: border-box;
+}
+
+/* USER JOURNEY MAP */
+.imageContainer {
+  margin-top: 1.5rem;
+}
+
+.imageSize {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Result Section */
+.resultSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 908px;
+  margin: 100px auto 0;
+  padding: 0 $spacing-medium;
+}
+
+.numberedItem {
+  display: flex;
+  align-items: center;
+}
+
+.numberCircle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: $primary-blue-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $paragraph-font-size;
+  color: $white;
+  font-weight: bold;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.resultText {
+  margin-top: 1.5rem;
+  font-family: $font-primary;
+  font-size: $paragraph-font-size;
+  color: $primary-text-color;
+}
+
+.takeAwaysSection {
+  margin-bottom: 80px;
+}

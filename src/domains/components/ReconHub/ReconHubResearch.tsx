@@ -19,8 +19,6 @@ const ReconHubResearch: React.FC = () => {
               <li className={styles.listItem}><b>Error Sensitivity</b>: The existing systems demonstrated sensitivity to errors, leading to potential inaccuracies in reconciled data.</li>
             </ul>
           </div>
-
-
       </div>
     </section>
   )
