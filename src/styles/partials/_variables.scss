@@ -5,18 +5,20 @@ $primary-color: #4F5ABF;
 $background-color: #fff;
 $primary-text-color: #212121;
 $primary-background-color: #EDF5FF;
+$primary-blue-color: #2977E3;
+$white: #fff;
 
 // Width
 $max-width: 1200px;
 
 // Fonts
 $font-primary: "Inter", sans-serif;
-$heading-font-size: 1.5rem;
-$paragraph-font-size: 1.125rem;
+$heading-font-size: 1.5rem; // 24px ->rem
+$paragraph-font-size: 1.125rem; // 18px -> rem
 $line-height: 1.6;
-$spacing-large: 2.5rem;
-$spacing-medium: 1.25rem;
-$spacing-small: 0.9375rem;
+$spacing-large: 2.5rem; // 40px -> rem
+$spacing-medium: 1.25rem; // 20px -> rem
+$spacing-small: 0.9375rem; // 15px -> rem
 
 // Border Radius
 $border-radius: var(--ant-border-radius-lg);
