@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../../pages/Pages.module.scss"
+import styles from "../../../../pages/Pages.module.scss"
 
 const WorkDescription: React.FC = () => {
   return (

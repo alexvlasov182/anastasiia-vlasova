@@ -3,8 +3,8 @@ import styles from './PaytestHub.module.scss'
 
 const PaytestHubIntroduction: React.FC = () => {
   return (
-    <section className={styles.reconHubIntroductionSection}>
-      <div className={styles.reconHubIntroductionContainer}>
+    <section className={styles.paytestHubIntroductionSection}>
+      <div className={styles.paytestHubIntroductionContainer}>
         <div className={styles.leftColumn}>
           <h2 className={styles.introductionTitle}>INTRODUCTION</h2>
           <p className={styles.aboutIntroduction}>

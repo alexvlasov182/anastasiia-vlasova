@@ -1,14 +1,21 @@
-// Home page
+// Variables
+$primary-color: #4F5ABF;
+$background-color: #fff;
+$max-width: 1200px;
+$text-color: #1A1A1A;
+$font-primary: "Inter", sans-serif;
+$border-radius: var(--ant-border-radius-lg);
+
 .layout {
   display: flex;
   flex-direction: column;
   min-height: 100vh !important;
-  background: #fff;
+  background: $background-color;
 }
 
 .layoutContainer {
   flex: 1;
-  max-width: 1200px;
+  max-width: $max-width;
   margin: 0 auto;
   padding: 0 20px;
   width: 100%;
@@ -19,7 +26,7 @@
   margin: 0 auto;
   padding: 0 20px;
   width: 100%;
-  background: #fff;
+  background: $background-color;
 }
 
 .headerInner {
@@ -31,108 +38,119 @@
 }
 
 .logo {
-  font-size: 20px !important;
+  font-size: 1.25rem !important;
   font-weight: bold;
-  color: #000;
+  color: $text-color;
   text-decoration: none;
   &:hover {
-    color: #4F5ABF !important;
+    color: $primary-color !important;
   }
 }
 
+/* Menu */
 .menu {
   flex: 1;
   justify-content: flex-end;
-  background-color: #fff;
+  background-color: $background-color;
 }
 
+/* Content */
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
+  background-color: $background-color;
 }
 
 .container {
   max-width: 1600px;
   width: 100%;
-  padding: 20px;
-  border-radius: var(--ant-border-radius-lg);
-  background: #fff;
+  padding: 1.25rem;
+  border-radius: $border-radius;
+  background: $background-color;
 }
 
+/* Typography */
 .mainTitle {
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
   text-align: left;
-
-  font-family: "Nunito", sans-serif;
+  font-family: $font-primary;
   font-optical-sizing: auto;
 }
 
 .subtitle {
   text-align: left;
-  font-family: "Nunito", sans-serif;
+  font-family: $font-primary;
   font-optical-sizing: auto;
   margin: 0 auto;
 }
 
 .description {
   text-align: left;
-  margin-top: 8px;
-  font-family: "Poppins", sans-serif;
+  margin-top: 0.5rem;
+  font-family: $font-primary;
   font-weight: 200;
   font-style: normal;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
+/* List styling */
 .list {
-  margin-left: 32px;
+  margin-left: 2rem;
   text-align: left;
-  margin-top: 8px;
-  font-family: "Poppins", sans-serif;
+  margin-top: 0.5px;
+  font-family: $font-primary;
   font-weight: 200;
   font-style: normal;
-  font-size: 16px;
+  font-size: 1rem;
   list-style-type: disc;
 }
 
-.icons {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  font-size: 24px;
-  margin-bottom: 24px;
-  margin-top: 24px;
-}
-
+/* Footer */
 .footer {
   text-align: center;
-  padding: 0 0 20px 0;
-  background-color: #fff;
+  padding: 1.25rem 0;
+  background-color: $background-color;
 }
 
+/* Information Block */
 .informationBlock {
   width: 100%;
   max-width: 1120px;
-  margin: 0 auto;
-  margin-top: 56px;
-  margin-bottom: 56px;
+  margin: 3.5rem auto;
   display: block;
 }
 
 .contentPadding {
-  padding: 0 24px 0 24px;
-}
-
-.buttonContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 24px;
+  padding: 0 1.5rem;
 }
 
 .name {
   color: #2977E3;
 }
 
+/* For tablet screens */
+@media (max-width: 768px) {
+  .headerInner {
+    flex-direction: column;
+  }
 
+  .mainTitle, .subtitle {
+    text-align: center;
+  }
+
+  .content {
+    padding: 10px;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+  .mainTitle {
+    font-size: 1.25rem !important;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+}

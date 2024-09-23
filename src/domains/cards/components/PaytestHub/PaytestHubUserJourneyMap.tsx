@@ -29,7 +29,6 @@ const PaytestHubUserJourneyMap: React.FC = () => {
           </li>
         </ul>
 
-
         <li className={styles.listItem}>
           Need to find and copy code from the library
         </li>
@@ -58,10 +57,7 @@ const PaytestHubUserJourneyMap: React.FC = () => {
         <li className={styles.listItem}>
           Ability to share with a team.
         </li>
-
-
       </div>
-
     </section>
   )
 }
