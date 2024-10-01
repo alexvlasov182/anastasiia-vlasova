@@ -1,0 +1,40 @@
+import React from "react";
+import {Swiper, SwiperSlide} from "swiper/react";
+import styles from '../../components/ReconHub/ReconHub.module.scss';
+
+// Import Swiper styles
+import 'swiper/css';               // Core Swiper styles
+import 'swiper/css/navigation';    // Navigation module styles
+import 'swiper/css/pagination';
+
+// Import required modules (like pagination, navigation, etc.)
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+
+const DoablySliderWireframes: React.FC  = () => {
+  return (
+    <Swiper
+      // Required modules
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={50}
+      slidesPerView={1}
+      navigation
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log("Slide change")}
+    >
+      <SwiperSlide>
+        <div style={{  padding: "40px" }}>
+          <img className={styles.imageSize} src="src/assets/images/doably/doably-wireframes-1.png" alt="Doably Preview Wireframes 1" />
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div style={{  padding: "40px" }}>
+          <img className={styles.imageSize} src="src/assets/images/doably/doably-wireframes-2.png" alt="Doably Preview Wireframes 2" />
+        </div>
+      </SwiperSlide>
+    </Swiper>
+  );
+}
+
+export default DoablySliderWireframes;
