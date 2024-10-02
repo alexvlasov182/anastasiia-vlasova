@@ -13,7 +13,7 @@ const PaytestHubPersonas: React.FC = () => {
         </p>
 
         <p className={styles.personasParagraph}>
-          The main difference lay in their responsibilities and levels of testing knowledge. Our clients use different product features and see the outcome in a different way. That is why we needed to create one product that can satisfy every persona.
+          The main difference lay in their responsibilities and levels of testing knowledge. Our clients use different product features and see the outcome in a different way. That is why we needed to create one product that can satisfy every persona.<br />
           Below are images of our user personas.
         </p>
       </div>

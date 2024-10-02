@@ -13,15 +13,15 @@ const FocalPointUsabilityStudy: React.FC = () => {
 
         <div className={styles.numberedItem}>
           <div className={styles.numberCircle}>1</div>
-          <p className={styles.resultText}>The first thing users want to see is not a list of categories, but a dashboard that helps managers measure the effectiveness of their work.</p>
+          <p className={styles.resultText}> <b>The first thing users want to see is not a list of categories, but a dashboard that helps managers measure the effectiveness of their work.</b></p>
         </div>
         <div className={styles.numberedItem}>
           <div className={styles.numberCircle}>2</div>
-          <p className={styles.resultText}>Vertical navigation was better because it helped users find the page they were looking for faster.</p>
+          <p className={styles.resultText}><b>Vertical navigation was better because it helped users find the page they were looking for faster.</b></p>
         </div>
         <div className={styles.numberedItem}>
           <div className={styles.numberCircle}>3</div>
-          <p className={styles.resultText}>We had to simplify the tables by adding icons and two-line strings because they were overloaded with information.</p>
+          <p className={styles.resultText}><b>We had to simplify the tables by adding icons and two-line strings because they were overloaded with information.</b></p>
         </div>
       </div>
     </section>

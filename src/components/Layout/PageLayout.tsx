@@ -53,7 +53,7 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
           {children}
         </Content>
         <Footer className={styles.footer}>
-          Designed by Anastasiia Vlasova | Created by Oleksandr Vlasov ©
+          Product Designer Portfolio ©
           {new Date().getFullYear()}
         </Footer>
     </Layout>

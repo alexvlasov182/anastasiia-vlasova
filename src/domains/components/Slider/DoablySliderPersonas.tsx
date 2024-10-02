@@ -24,17 +24,17 @@ const DoablySliderPersonas: React.FC  = () => {
       onSlideChange={() => console.log("Slide change")}
     >
       <SwiperSlide>
-        <div style={{  padding: "40px" }}>
+        <div>
           <img className={styles.imageSize} src="src/assets/images/doably/doably-personas-1.jpg" alt="Doably Preview Personas" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div style={{  padding: "40px" }}>
+        <div>
           <img className={styles.imageSize} src="src/assets/images/doably/doably-personas-2.jpg" alt="Doably Preview Personas"/>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div style={{  padding: "40px" }}>
+        <div>
           <img className={styles.imageSize} src="src/assets/images/doably/doably-personas-3.jpg" alt="Doably Preview Personas"/>
         </div>
       </SwiperSlide>

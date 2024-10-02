@@ -25,7 +25,6 @@ const PaytestHubResults: React.FC = () => {
         </div>
       </div>
     </section>
-
   )
 }
 

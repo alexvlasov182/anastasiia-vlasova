@@ -13,6 +13,7 @@ import FocalPointUsabilityStudy from "../domains/components/FocalPoint/FocalPoin
 import ScrollToTop from "../domains/components/ScrollToTop/ScrollToTop.tsx";
 import FocalPointUIScreens from "../domains/components/FocalPoint/FocalPointUIScreens.tsx";
 import FocalPointTakeAways from "../domains/components/FocalPoint/FocalPointTakeAways.tsx";
+import FocalPointResearchPain from "../domains/components/FocalPoint/FocalPointResearchPain.tsx";
 
 const FocalPointPage: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const FocalPointPage: React.FC = () => {
       <div className={styles.container}>
         <FocalPointIntroduction />
         <FocalPointResearch />
+        <FocalPointResearchPain />
         <FocalPointPersonas />
         <FocalPointPrioritization />
         <FocalPointUserFlow />

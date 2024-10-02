@@ -25,7 +25,7 @@ const FocalPointIntroduction: React.FC = () => {
         <div className={styles.rightColumn}>
           <h2 className={styles.introductionTitle}>ROLE</h2>
           <p className={styles.aboutIntroduction}>
-            As the lead designet, I was involved in every phase, from identifying problems to delivering and testing final designs. It was my first time leading a project, and although I was nervous at first, I quickly learned the importance of trusting my team. Frequent communication and quick daily meetings were key to our success.
+            As the lead designer, I was involved in every phase, from identifying problems to delivering and testing final designs. It was my first time leading a project, and although I was nervous at first, I quickly learned the importance of trusting my team. Frequent communication and quick daily meetings were key to our success.
           </p>
           <h2 className={styles.introductionTitle}>LINK</h2>
           <a className={styles.link} href="https://www.getfocalpoint.com/" target="_blank" rel="noopener noreferrer">

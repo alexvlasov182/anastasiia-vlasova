@@ -24,22 +24,22 @@ const ReconHubSlider: React.FC  = () => {
       onSlideChange={() => console.log("Slide change")}
     >
       <SwiperSlide>
-        <div style={{  padding: "40px" }}>
+        <div>
           <img className={styles.imageSize} src="src/assets/images/recon-hub/reconhub-slide-1.png" alt="ReconHub Preview Personas" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div style={{  padding: "40px" }}>
+        <div>
           <img className={styles.imageSize} src="src/assets/images/recon-hub/reconhub-slide-2.png" alt="ReconHub Preview Personas"/>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div style={{  padding: "40px" }}>
+        <div>
           <img className={styles.imageSize} src="src/assets/images/recon-hub/reconhub-slide-3.png" alt="ReconHub Preview Personas"/>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div style={{ padding: "40px" }}>
+        <div>
           <img className={styles.imageSize} src="src/assets/images/recon-hub/reconhub-slide-4.png" alt="ReconHub Preview Personas"/>
         </div>
       </SwiperSlide>

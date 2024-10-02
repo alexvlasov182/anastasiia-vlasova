@@ -24,18 +24,18 @@ const DoablySliderUIScreens: React.FC  = () => {
       onSlideChange={() => console.log("Slide change")}
     >
       <SwiperSlide>
-        <div style={{  padding: "40px" }}>
-          <img className={styles.imageSize} src="src/assets/images/doably/doably-ui-screens-1.png" alt="Doably Preview UI Screens 1" />
+        <div>
+          <img className={styles.imageSize} src="src/assets/images/doably/doably-ui-3.jpg" alt="Doably Preview UI Screens 1" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div style={{  padding: "40px" }}>
-          <img className={styles.imageSize} src="src/assets/images/doably/doably-ui-screens-2.png" alt="Doably Preview UI Screens 2" />
+        <div>
+          <img className={styles.imageSize} src="src/assets/images/doably/doably-ui-2.jpg" alt="Doably Preview UI Screens 2" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div style={{  padding: "40px" }}>
-          <img className={styles.imageSize} src="src/assets/images/doably/doably-ui-screens-3.png" alt="Doably Preview UI Screens 3" />
+        <div>
+          <img className={styles.imageSize} src="src/assets/images/doably/doably-ui-1.jpg" alt="Doably Preview UI Screens 3" />
         </div>
       </SwiperSlide>
     </Swiper>

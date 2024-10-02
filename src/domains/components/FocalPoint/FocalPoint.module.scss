@@ -128,7 +128,7 @@
 /* Research Section */
 .researchContainer {
   max-width: 908px;
-  margin: 0 auto;
+  margin: 100px auto 0;
   padding: 0 $spacing-medium;
   box-sizing: border-box;
 }
@@ -237,4 +237,8 @@
 
 .takeAwaysSection {
   margin-bottom: 80px;
+}
+
+.solutionText {
+  padding-top: 18px;
 }

@@ -24,13 +24,13 @@ const DoablySliderWireframes: React.FC  = () => {
       onSlideChange={() => console.log("Slide change")}
     >
       <SwiperSlide>
-        <div style={{  padding: "40px" }}>
-          <img className={styles.imageSize} src="src/assets/images/doably/doably-wireframes-1.png" alt="Doably Preview Wireframes 1" />
+        <div>
+          <img className={styles.imageSize} src="src/assets/images/doably/doably-wireframes-1.jpg" alt="Doably Preview Wireframes 1" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div style={{  padding: "40px" }}>
-          <img className={styles.imageSize} src="src/assets/images/doably/doably-wireframes-2.png" alt="Doably Preview Wireframes 2" />
+        <div>
+          <img className={styles.imageSize} src="src/assets/images/doably/doably-wireframes-2.jpg" alt="Doably Preview Wireframes 2" />
         </div>
       </SwiperSlide>
     </Swiper>

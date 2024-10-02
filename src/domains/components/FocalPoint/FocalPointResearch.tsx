@@ -15,7 +15,7 @@ const FocalPointResearch: React.FC = () => {
         </p>
 
         <p className={styles.researchParagraph}>
-          Our findings helped us realize that not all planned features were essential, guiding us in prioritizing our MVP.
+          Our findings helped us realize that not all planned features were essential, guiding us in prioritizing our MVP.<br />
           Additionally, we performed a <b>SWOT analysis</b> of competitor features in the context of our business. This analysis not only highlighted the strengths and weaknesses of competitors but also revealed opportunities for our product to stand out and address gaps in the market.
         </p>
       </div>
