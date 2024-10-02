@@ -2,7 +2,6 @@ import React from "react";
 import styles from './Doably.module.scss'
 import DoablySliderWireframes from "../Slider/DoablySliderWireframes.tsx";
 
-
 const DoablyWireframes: React.FC = () => {
   return (
     <section className={styles.personasSection}>

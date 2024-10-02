@@ -3,10 +3,10 @@ import styles from './FocalPoint.module.scss'
 
 const FocalPointPrioritization: React.FC = () => {
   return (
-    <section className={styles.personasSection}>
-      <div className={styles.personasContainer}>
-        <h2 className={styles.personasTitle}>PRIORITIZATION PLOTTING</h2>
-        <p className={styles.personasParagraph}>
+    <section className={styles.prioritizationSection}>
+      <div className={styles.prioritizationContainer}>
+        <h2 className={styles.prioritizationTitle}>PRIORITIZATION PLOTTING</h2>
+        <p className={styles.prioritizationParagraph}>
           In order to build a successful and solid MVP for Focal Point, we had to identify the most important features. So, we’ve created a prioritization matrix that shows the relative importance of a set of items based on two weighted criteria - Priority and Effort.
         </p>
       </div>

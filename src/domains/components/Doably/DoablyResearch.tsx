@@ -35,7 +35,6 @@ const DoablyResearch: React.FC = () => {
         <p className={styles.researchParagraph}>
           These insights confirmed the need for features that track progress, manage time, and encourage collaboration—key to making Doably more effective for users.
         </p>
-
       </div>
     </section>
   )

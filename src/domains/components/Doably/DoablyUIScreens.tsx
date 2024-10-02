@@ -1,6 +1,5 @@
 import React from "react";
 import styles from './Doably.module.scss'
-
 import DoablySliderUIScreens from "../Slider/DoablySliderUIScreens.tsx";
 
 const DoablyUIScreens: React.FC = () => {
