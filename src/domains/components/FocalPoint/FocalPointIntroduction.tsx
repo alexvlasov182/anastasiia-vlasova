@@ -3,8 +3,8 @@ import styles from './FocalPoint.module.scss'
 
 const FocalPointIntroduction: React.FC = () => {
   return (
-    <section className={styles.paytestHubIntroductionSection}>
-      <div className={styles.paytestHubIntroductionContainer}>
+    <section className={styles.focalPointIntroductionSection}>
+      <div className={styles.focalPointIntroductionContainer}>
         <div className={styles.leftColumn}>
           <h2 className={styles.introductionTitle}>INTRODUCTION</h2>
           <p className={styles.aboutIntroduction}>

@@ -3,7 +3,7 @@ import styles from './FocalPoint.module.scss'
 
 const FocalPointHero: React.FC = () => {
   return (
-    <section className={styles.paytestHubSection}>
+    <section className={styles.focalPointSection}>
       <div className={styles.contentWrapper}>
         <h1 className={styles.title}>Focal Point</h1>
         <h2 className={styles.subtitle}>Tool for procurement management</h2>
