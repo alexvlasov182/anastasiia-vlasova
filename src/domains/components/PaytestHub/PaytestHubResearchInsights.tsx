@@ -26,8 +26,6 @@ const PaytestHubResearchInsights: React.FC = () => {
           <span className={styles.mainColorText}>Low efficiency</span><br/>
           Complains of difficulty in use. Users have to do a lot of clicking and do a lot of attachment for the tests.
         </p>
-
-
       </div>
     </section>
   )
