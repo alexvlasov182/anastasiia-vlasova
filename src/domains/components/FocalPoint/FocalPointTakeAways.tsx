@@ -18,7 +18,6 @@ const FocalPointTakeAways: React.FC = () => {
         <p className={styles.takeAwaysParagraph}>
           This CRM system’s taught me to work with large databases.  We have automated the process of analyzing data on purchases of giant companies. The project was successfully presented to customers and now is in use by large companies.
         </p>
-
       </div>
     </section>
   )
