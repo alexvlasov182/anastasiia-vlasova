@@ -14,7 +14,7 @@ const ReconHubScreens: React.FC = () => {
         </p>
       </div>
       <div className={styles.imageContainer}>
-        <img className={styles.imageSize} src="src/assets/images/recon-hub/screens-img.png" alt="Screens img" />
+        <img className={styles.imageSize} src="/images/recon-hub/screens-img.png" alt="Screens img" />
       </div>
     </section>
   )

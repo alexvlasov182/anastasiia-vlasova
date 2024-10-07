@@ -21,7 +21,7 @@ const PaytestHubScreens: React.FC = () => {
         </p>
       </div>
       <div className={styles.imageContainer}>
-        <img className={styles.imageSize} src="src/assets/images/paytest-hub/paytesthub-screens.png" alt="Screens img"/>
+        <img className={styles.imageSize} src="/images/paytest-hub/paytesthub-screens.png" alt="Screens img"/>
       </div>
     </section>
   )

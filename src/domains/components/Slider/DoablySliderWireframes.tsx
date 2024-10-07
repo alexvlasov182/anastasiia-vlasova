@@ -25,12 +25,12 @@ const DoablySliderWireframes: React.FC  = () => {
     >
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/doably/doably-wireframes-1.jpg" alt="Doably Preview Wireframes 1" />
+          <img className={styles.imageSize} src="/images/doably/doably-wireframes-1.jpg" alt="Doably Preview Wireframes 1" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/doably/doably-wireframes-2.jpg" alt="Doably Preview Wireframes 2" />
+          <img className={styles.imageSize} src="/images/doably/doably-wireframes-2.jpg" alt="Doably Preview Wireframes 2" />
         </div>
       </SwiperSlide>
     </Swiper>

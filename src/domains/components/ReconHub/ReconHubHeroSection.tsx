@@ -9,7 +9,7 @@ const ReconHubHeroSection: React.FC = () => {
         <h2 className={styles.subtitle}>Reconciliation Automation Tool</h2>
         <div className={styles.imageWrapper}>
           <img
-            src="src/assets/images/recon-hub/reconhab-hero.png"
+            src="/images/recon-hub/reconhab-hero.png"
             alt="ReconHub Preview"
             className={styles.projectImage}
           />

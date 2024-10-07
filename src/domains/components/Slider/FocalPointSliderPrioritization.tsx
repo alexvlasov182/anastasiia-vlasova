@@ -25,12 +25,12 @@ const FocalPointSliderPrioritization: React.FC  = () => {
     >
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/focal-point/prioritization-img-1.png" alt="Focal Point Preview Personas" />
+          <img className={styles.imageSize} src="/images/focal-point/prioritization-img-1.png" alt="Focal Point Preview Personas" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/focal-point/prioritization-img-2.jpg" alt="Focal Point Preview Personas"/>
+          <img className={styles.imageSize} src="/images/focal-point/prioritization-img-2.jpg" alt="Focal Point Preview Personas"/>
         </div>
       </SwiperSlide>
     </Swiper>

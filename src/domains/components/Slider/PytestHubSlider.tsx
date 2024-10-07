@@ -25,17 +25,17 @@ const PytestHubSlider: React.FC  = () => {
     >
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/paytest-hub/paytesthub-slide-1.png" alt="ReconHub Preview Personas" />
+          <img className={styles.imageSize} src="/images/paytest-hub/paytesthub-slide-1.png" alt="ReconHub Preview Personas" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/paytest-hub/paytesthub-slide-2.png" alt="ReconHub Preview Personas"/>
+          <img className={styles.imageSize} src="/images/paytest-hub/paytesthub-slide-2.png" alt="ReconHub Preview Personas"/>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/paytest-hub/paytesthub-slide-3.png" alt="ReconHub Preview Personas"/>
+          <img className={styles.imageSize} src="/images/paytest-hub/paytesthub-slide-3.png" alt="ReconHub Preview Personas"/>
         </div>
       </SwiperSlide>
     </Swiper>

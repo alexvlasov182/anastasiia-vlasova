@@ -25,17 +25,17 @@ const DoablySliderPersonas: React.FC  = () => {
     >
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/doably/doably-personas-1.jpg" alt="Doably Preview Personas" />
+          <img className={styles.imageSize} src="/images/doably/doably-personas-1.jpg" alt="Doably Preview Personas" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/doably/doably-personas-2.jpg" alt="Doably Preview Personas"/>
+          <img className={styles.imageSize} src="/images/doably/doably-personas-2.jpg" alt="Doably Preview Personas"/>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/doably/doably-personas-3.jpg" alt="Doably Preview Personas"/>
+          <img className={styles.imageSize} src="/images/doably/doably-personas-3.jpg" alt="Doably Preview Personas"/>
         </div>
       </SwiperSlide>
     </Swiper>

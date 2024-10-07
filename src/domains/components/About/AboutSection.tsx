@@ -21,7 +21,7 @@ const AboutSection: React.FC = () => {
         </div>
         <div className={styles.imageColumn}>
           <img
-            src="src/assets/images/img-about-nastiia.png"
+            src="/images/img-about-nastiia.png"
             alt="Profile"
             className={styles.profileImage}
           />

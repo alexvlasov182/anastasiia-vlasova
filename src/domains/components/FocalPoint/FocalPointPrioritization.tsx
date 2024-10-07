@@ -11,7 +11,7 @@ const FocalPointPrioritization: React.FC = () => {
         </p>
       </div>
       <div className={styles.imageContainer}>
-        <img className={styles.imageSize} src="src/assets/images/focal-point/prioritization-img-1.png" alt="PRIORITIZATION img"/>
+        <img className={styles.imageSize} src="/images/focal-point/prioritization-img-1.png" alt="PRIORITIZATION img"/>
       </div>
     </section>
   )

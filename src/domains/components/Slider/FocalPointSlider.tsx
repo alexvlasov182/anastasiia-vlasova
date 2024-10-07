@@ -25,12 +25,12 @@ const FocalPointSlider: React.FC  = () => {
     >
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/focal-point/fc-persona-1.png" alt="Focal Point Preview Personas" />
+          <img className={styles.imageSize} src="/images/focal-point/fc-persona-1.png" alt="Focal Point Preview Personas" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/focal-point/fc-persona-2.png" alt="Focal Point Preview Personas"/>
+          <img className={styles.imageSize} src="/images/focal-point/fc-persona-2.png" alt="Focal Point Preview Personas"/>
         </div>
       </SwiperSlide>
     </Swiper>

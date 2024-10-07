@@ -18,7 +18,7 @@ const DoablyUserJourneyMap: React.FC = () => {
         </p>
       </div>
       <div className={styles.imageContainer}>
-        <img className={styles.imageSize} src="src/assets/images/doably/doably-user-map.png"
+        <img className={styles.imageSize} src="/images/doably/doably-user-map.png"
              alt="User Journey Map"/>
       </div>
     </section>

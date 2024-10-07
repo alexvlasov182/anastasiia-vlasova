@@ -25,17 +25,17 @@ const DoablySliderUIScreens: React.FC  = () => {
     >
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/doably/doably-ui-3.jpg" alt="Doably Preview UI Screens 1" />
+          <img className={styles.imageSize} src="/images/doably/doably-ui-3.jpg" alt="Doably Preview UI Screens 1" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/doably/doably-ui-2.jpg" alt="Doably Preview UI Screens 2" />
+          <img className={styles.imageSize} src="/images/doably/doably-ui-2.jpg" alt="Doably Preview UI Screens 2" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/doably/doably-ui-1.jpg" alt="Doably Preview UI Screens 3" />
+          <img className={styles.imageSize} src="/images/doably/doably-ui-1.jpg" alt="Doably Preview UI Screens 3" />
         </div>
       </SwiperSlide>
     </Swiper>

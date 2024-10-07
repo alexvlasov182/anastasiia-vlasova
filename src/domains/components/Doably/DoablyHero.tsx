@@ -9,7 +9,7 @@ const DoablyHero: React.FC = () => {
         <h2 className={styles.subtitle}>Tool for managing personal and business life</h2>
         <div className={styles.imageWrapper}>
           <img
-            src="src/assets/images/doably/doably-big.png"
+            src="/images/doably/doably-big.png"
             alt="ReconHub Preview"
             className={styles.projectImage}
           />

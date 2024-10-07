@@ -25,22 +25,22 @@ const FocalPointSliderUIScreens: React.FC  = () => {
     >
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/focal-point/ui-screen-0.png" alt="Focal Point Preview UI Screens" />
+          <img className={styles.imageSize} src="/images/focal-point/ui-screen-0.png" alt="Focal Point Preview UI Screens" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/focal-point/ui-screen-1.png" alt="Focal Point Preview UI Screens" />
+          <img className={styles.imageSize} src="/images/focal-point/ui-screen-1.png" alt="Focal Point Preview UI Screens" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/focal-point/ui-screen-2.png" alt="Focal Point Preview UI Screens"/>
+          <img className={styles.imageSize} src="/images/focal-point/ui-screen-2.png" alt="Focal Point Preview UI Screens"/>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img className={styles.imageSize} src="src/assets/images/focal-point/ui-screen-3.png" alt="Focal Point Preview UI Screens"/>
+          <img className={styles.imageSize} src="/images/focal-point/ui-screen-3.png" alt="Focal Point Preview UI Screens"/>
         </div>
       </SwiperSlide>
     </Swiper>
