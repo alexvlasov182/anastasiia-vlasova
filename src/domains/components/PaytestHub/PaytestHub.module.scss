@@ -8,6 +8,12 @@
   align-items: center;
   justify-content: center;
   padding: 0 $spacing-medium;
+
+  /* For mobile screens */
+  @media (max-width: 480px) {
+    height: 480px;
+    background-color: white;
+  }
 }
 
 .contentWrapper {
@@ -49,6 +55,11 @@
 .paytestHubIntroductionSection {
   width: 100%;
   padding: 60px 0 0 0;
+
+  /* For mobile screens */
+  @media (max-width: 480px) {
+    padding: 2rem 0 0 0;
+  }
 }
 
 .paytestHubIntroductionContainer {
@@ -73,6 +84,8 @@
 
   @media (max-width: 480px) {
     padding: 0 5px;
+
+    margin: 0 auto 3rem;
   }
 }
 
@@ -135,6 +148,10 @@
 
 .researchSection {
   margin-bottom: 100px;
+
+  @media (max-width: 480px) {
+    margin-bottom: 3rem;
+  }
 }
 
 .mainColorText {
@@ -184,6 +201,10 @@
   margin: 100px auto 0;
   padding: 0 $spacing-medium;
   box-sizing: border-box;
+
+  @media (max-width: 480px) {
+    margin: 3rem auto 0;
+  }
 }
 
 /* USER JOURNEY MAP */
@@ -206,6 +227,10 @@
   max-width: 908px;
   margin: 100px auto 0;
   padding: 0 $spacing-medium;
+
+  @media (max-width: 480px) {
+    margin: 3rem auto 3rem;
+  }
 }
 
 .numberedItem {

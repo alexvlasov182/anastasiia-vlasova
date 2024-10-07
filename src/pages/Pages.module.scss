@@ -137,7 +137,12 @@
 /* For mobile screens */
 @media (max-width: 480px) {
   .mainTitle {
+    font-size: 2rem !important;
+  }
+
+  .description {
     font-size: 1.25rem !important;
+    text-align: center;
   }
 
   .subtitle {

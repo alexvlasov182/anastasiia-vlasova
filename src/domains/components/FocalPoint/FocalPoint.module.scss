@@ -8,6 +8,11 @@
   align-items: center;
   justify-content: center;
   padding: 0 $spacing-medium;
+
+  @media (max-width: 480px) {
+    background-color: white;
+    height: 480px;
+  }
 }
 
 .contentWrapper {
@@ -43,12 +48,20 @@
   object-fit: contain;
   border-radius: 16px;
   margin-bottom: 50px;
+
+  @media (max-width: 480px) {
+    margin-bottom: 0;
+  }
 }
 
 /* Introduction Section */
 .focalPointIntroductionSection {
   width: 100%;
   padding: 60px 0 0 0;
+
+  @media (max-width: 480px) {
+    padding: 2rem 0 0 0;
+  }
 }
 
 .focalPointIntroductionContainer {
@@ -131,6 +144,10 @@
   margin: 100px auto 0;
   padding: 0 $spacing-medium;
   box-sizing: border-box;
+
+  @media (max-width: 480px) {
+    margin: 2rem auto 0;
+  }
 }
 
 .researchSection {
@@ -184,6 +201,10 @@
   margin: 100px auto 0;
   padding: 0 $spacing-medium;
   box-sizing: border-box;
+
+  @media (max-width: 480px) {
+    margin: 3rem auto 0;
+  }
 }
 
 /* USER JOURNEY MAP */
@@ -206,6 +227,10 @@
   max-width: 908px;
   margin: 100px auto 0;
   padding: 0 $spacing-medium;
+
+  @media (max-width: 480px) {
+    margin: 2rem auto 0;
+  }
 }
 
 .numberedItem {

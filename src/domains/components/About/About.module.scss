@@ -102,11 +102,38 @@ h2 {
   margin-bottom: $spacing-medium;
 }
 
+
+
 // Responsive Breakpoints
+
+@media (max-width: 1108px) {
+  .aboutContainer {
+    justify-content: center;
+  }
+}
+
 @media (max-width: 768px) {
   .valuesContainer {
     flex-direction: column;
   }
+
+  span svg {
+    color: $primary-text-color;
+  }
+
+
+  li:nth-child(1) > span > a {
+    color: $primary-blue-color !important;
+  }
+
+  li:nth-child(2) > span > a {
+    color: $primary-blue-color !important;
+  }
+
+  li:nth-child(3) > span > a {
+    color: $primary-blue-color !important;
+  }
+
 
   .leftColumn, .rightColumn {
     flex-basis: 100%;
