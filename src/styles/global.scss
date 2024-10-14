@@ -165,6 +165,7 @@ td {
 
 li {
   color: #333333 !important;
+  background-color: transparent !important;
 
   &:hover {
     color: #4f5abf !important;
@@ -173,29 +174,6 @@ li {
 
 .contentPadding {
   padding: 0 24px 0 24px;
-}
-
-:where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark
-  .ant-menu-item-selected,
-:where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark
-  > .ant-menu
-  .ant-menu-item-selected {
-  background-color: transparent !important;
-  outline: none;
-  box-shadow: none;
-}
-
-:where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark.ant-menu-horizontal
-  > .ant-menu-item-selected,
-:where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark
-  > .ant-menu.ant-menu-horizontal
-  > .ant-menu-item-selected,
-:where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark.ant-menu-horizontal
-  > .ant-menu-submenu-selected,
-:where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark
-  > .ant-menu.ant-menu-horizontal
-  > .ant-menu-submenu-selected {
-  background-color: transparent !important;
 }
 
 /* Scroll to top */
