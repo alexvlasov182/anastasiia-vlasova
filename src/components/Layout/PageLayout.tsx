@@ -13,7 +13,7 @@ const items: MenuProps["items"] = [
     key: "cv",
     label: (
       <Link
-        to="https://drive.google.com/file/d/1SaF-HuhehCW2p1H1pjg7kPPkviMuVplY/view?usp=sharing"
+        to="https://drive.google.com/file/d/1XOyAgkCaie5Ld2Ad7gCZdS4-dZtvvEaI/view?usp=sharing"
         target="_blank"
       >
         Resume
@@ -29,33 +29,26 @@ interface PageLayoutProps {
 const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
   return (
     <Layout className={styles.layout}>
-        <Header className={styles.header}>
-          <div className={styles.headerInner}>
-            <div className={styles.logo}>
-              <Link
-                style={{ textDecoration: "none", color: "#000" }}
-                to="/"
-              >
-                Anastasiia Vlasova
-              </Link>
-            </div>
-            <Menu
-              theme="dark"
-              mode="horizontal"
-              defaultSelectedKeys={["2"]}
-              items={items}
-              className={styles.menu}
-            />
+      <Header className={styles.header}>
+        <div className={styles.headerInner}>
+          <div className={styles.logo}>
+            <Link style={{ textDecoration: "none", color: "#000" }} to="/">
+              Anastasiia Vlasova
+            </Link>
           </div>
-
-        </Header>
-        <Content className={styles.content}>
-          {children}
-        </Content>
-        <Footer className={styles.footer}>
-          Product Designer Portfolio ©
-          {new Date().getFullYear()}
-        </Footer>
+          <Menu
+            theme="dark"
+            mode="horizontal"
+            defaultSelectedKeys={["2"]}
+            items={items}
+            className={styles.menu}
+          />
+        </div>
+      </Header>
+      <Content className={styles.content}>{children}</Content>
+      <Footer className={styles.footer}>
+        Product Designer Portfolio ©{new Date().getFullYear()}
+      </Footer>
     </Layout>
   );
 };
