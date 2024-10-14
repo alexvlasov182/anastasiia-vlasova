@@ -4,7 +4,7 @@ import cardsData from "../../../data/cardsData.json";
 
 import styles from "./Cards.module.scss";
 
-const colors = ["#EDF0FF", "#F6E8C5", "#DCEDEC", "#EDF8FF"];
+const colors = ["#EDF0FF", "#FFF6E1", "#ECFFF9", "#F0EDFF"];
 
 const CardList: React.FC = () => (
   <div className={styles.cardListWrapper}>

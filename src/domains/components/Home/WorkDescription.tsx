@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../../pages/Pages.module.scss"
+import styles from "../../../pages/Pages.module.scss";
 
 const WorkDescription: React.FC = () => {
   return (
@@ -9,11 +9,14 @@ const WorkDescription: React.FC = () => {
       </h1>
 
       <p className={styles.description}>
-        I’m a product designer with over six years of experience <b>transforming the “How <br/> do I do this?” moments
-        into “That was easy!”</b>—because life’s complicated <br /> enough without confusing interfaces.
+        I’m a product designer with over six years of experience{" "}
+        <b>
+          transforming the “How do I do this?” moments into “That was easy!”
+        </b>
+        —because life’s complicated enough without confusing interfaces.
       </p>
     </div>
-  )
-}
+  );
+};
 
 export default WorkDescription;

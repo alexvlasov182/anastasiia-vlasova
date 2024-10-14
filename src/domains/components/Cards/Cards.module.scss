@@ -14,7 +14,7 @@
 .card {
   height: 400px; /* Set a fixed height */
   border-radius: 24px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  //box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -50,8 +50,8 @@
 
 .cardImage {
   position: absolute;
-  bottom: -200px;
-  right: -200px;
+  bottom: -37px;
+  right: -48px;
   width: 150%;
   height: auto;
   z-index: 1;
@@ -92,7 +92,4 @@
   .cardListWrapper {
     padding: 0 !important;
   }
-
-
 }
-

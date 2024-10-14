@@ -3,24 +3,24 @@
     "id": "recon-hub",
     "title": "ReconHub",
     "description": "Tool that enables automatic reconciliation of all payment flows",
-    "cover_image": "/images/doably/doably.png"
+    "cover_image": "/images/recon-hub/recon-hub-work.jpg"
   },
   {
     "id": "pytest-hub",
     "title": "PaytestHub",
     "description": "Test automation cloud platform",
-    "cover_image": "/images/doably/doably.png"
+    "cover_image": "/images/paytest-hub/paytest-hub-work.jpg"
   },
   {
     "id": "focal-point",
     "title": "Focal Point",
     "description": "System where procurement activities can be tracked and measured",
-    "cover_image": "/images/doably/doably.png"
+    "cover_image": "/images/focal-point/focal-point-work.jpg"
   },
   {
     "id": "doably",
     "title": "Doably",
     "description": "Tool for managing personal and business life",
-    "cover_image": "/images/doably/doably.png"
+    "cover_image": "/images/doably/doably-img-work.jpg"
   }
 ]
