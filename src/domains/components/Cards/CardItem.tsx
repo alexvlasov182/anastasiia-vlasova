@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Card } from "antd";
 import { Link } from "react-router-dom";
 
@@ -29,6 +29,24 @@ const CardItem: React.FC<CardItemProps> = ({
   } else if (id === "focal-point") {
     routePath = `/focal-point`;
   }
+
+  const [cardHeight, setCardHeight] = useState("480px");
+
+  useEffect(() => {
+    const updateHeight = () => {
+      if (window.innerWidth <= 768) {
+        setCardHeight("380px");
+      } else {
+        setCardHeight("480px");
+      }
+
+      window.addEventListener("resize", updateHeight);
+      updateHeight();
+
+      return () => window.removeEventListener("resize", updateHeight);
+    };
+  }, []);
+
   return (
     <Link to={routePath}>
       <Card
@@ -37,7 +55,7 @@ const CardItem: React.FC<CardItemProps> = ({
         style={{
           backgroundColor: color,
           position: "relative",
-          height: "480px",
+          height: cardHeight,
         }}
       >
         <div className={styles.cardContent}>
