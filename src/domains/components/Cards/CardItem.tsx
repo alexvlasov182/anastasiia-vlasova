@@ -39,12 +39,12 @@ const CardItem: React.FC<CardItemProps> = ({
       } else {
         setCardHeight("480px");
       }
-
-      window.addEventListener("resize", updateHeight);
-      updateHeight();
-
-      return () => window.removeEventListener("resize", updateHeight);
     };
+
+    window.addEventListener("resize", updateHeight);
+    updateHeight();
+
+    return () => window.removeEventListener("resize", updateHeight);
   }, []);
 
   return (

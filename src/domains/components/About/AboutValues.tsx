@@ -30,7 +30,8 @@ const AboutValues: React.FC = () => {
             <h2 className={styles.valuesTitle}>My current project</h2>
             <p className={styles.aboutValues}>
               I'm currently working on a sustainability tool designed to help
-              users reduce food waste while saving time and money.
+              users reduce food waste while saving time and money. Coming
+              soon...
             </p>
           </div>
         </div>
