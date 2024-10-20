@@ -1,4 +1,4 @@
-@import 'src/styles/partials/_variables.scss';
+@import "src/styles/partials/_variables.scss";
 
 .layout {
   display: flex;
@@ -120,17 +120,68 @@
 }
 
 .name {
-  color: #2977E3;
+  color: #2977e3;
+}
+
+.dividerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.sectionDivider {
+  width: 100%;
+  max-width: 1125px;
+  height: 2px;
+  background-color: #dedede;
+}
+
+.servicesSection {
+  width: 100%;
+
+  .servicesContainer {
+    max-width: 1080px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+.serviceItem {
+  flex-basis: calc(25% - 20px);
+  box-sizing: border-box;
+}
+
+.servicesText {
+  font-size: 20px;
+  color: $primary-text-color;
+}
+
+.servicesTitle {
+  font-size: 24px;
+  color: $primary-blue-color;
 }
 
 /* For tablet screens */
+@media (max-width: 1200px) {
+  .serviceItem {
+    flex-basis: calc(50% - 20px);
+  }
+}
 @media (max-width: 768px) {
   .headerInner {
     flex-direction: column;
   }
 
-  .mainTitle, .subtitle {
+  .mainTitle,
+  .subtitle {
     text-align: center;
+  }
+  .serviceItem {
+    flex-basis: 100%;
   }
 }
 
