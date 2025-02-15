@@ -12,8 +12,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/recon-hub" element={<ReconHubPage />} />
-        <Route path="/pytest-hub" element={<PaytestHubPage />} />
+        <Route path="/reconhub" element={<ReconHubPage />} />
+        <Route path="/paytesthub" element={<PaytestHubPage />} />
         <Route path="/doably" element={<DoablyPage />} />
         <Route path="/focal-point" element={<FocalPointPage />} />
       </Routes>
