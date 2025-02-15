@@ -20,10 +20,10 @@ const CardItem: React.FC<CardItemProps> = ({
   color,
 }) => {
   let routePath = "";
-  if (id === "recon-hub") {
-    routePath = `/recon-hub`;
-  } else if (id === "pytest-hub") {
-    routePath = `/pytest-hub`;
+  if (id === "reconhub") {
+    routePath = `/reconhub`;
+  } else if (id === "paytesthub") {
+    routePath = `/paytesthub`;
   } else if (id === "doably") {
     routePath = `/doably`;
   } else if (id === "focal-point") {
